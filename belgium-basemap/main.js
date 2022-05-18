@@ -39,7 +39,7 @@ const be_cartoweb_topo = new TileLayer({
   type: 'base',
   visible: false,
   source: new WMTSSource({
-    url:"http://www.ngi.be/tiles/wmts/cartoweb/1.0.0/topo/default/3857/latest/{TileMatrix}/{TileRow}/{TileCol}.png",
+    url:"https://www.ngi.be/tiles/wmts/cartoweb/1.0.0/topo/default/3857/latest/{TileMatrix}/{TileRow}/{TileCol}.png",
     layer: "topo", matrixSet: "EPSG:3857", crossOrigin: 'Anonymous', format: "image/png", projection: proj3857, tileGrid: proj3857WMTSTileGrid, style: "default", wrapX: !0, 	requestEncoding: "REST",
     attributions: 'NGI - België: <a href="https://www.ngi.be/website/aanbod/digitale-geodata/cartoweb-be/" target="_blank" title="Nationaal Geografisch Instituut">Cartoweb-topo</a>'
   }),
@@ -50,7 +50,7 @@ const be_cartoweb_topo_grey = new TileLayer({
   type: 'base',
   visible: false,
   source: new WMTSSource({
-    url:"http://www.ngi.be/tiles/wmts/cartoweb/1.0.0/topo/default_bw/3857/latest/{TileMatrix}/{TileRow}/{TileCol}.png",
+    url:"https://www.ngi.be/tiles/wmts/cartoweb/1.0.0/topo/default_bw/3857/latest/{TileMatrix}/{TileRow}/{TileCol}.png",
     layer: "topo", matrixSet: "EPSG:3857", crossOrigin: 'Anonymous', format: "image/png", projection: proj3857, tileGrid: proj3857WMTSTileGrid, style: "default", wrapX: !0, 	requestEncoding: "REST",
     attributions: 'NGI - België: <a href="https://www.ngi.be/website/aanbod/digitale-geodata/cartoweb-be/" target="_blank" title="Nationaal Geografisch Instituut">Cartoweb-topo grey</a>'
   }),
